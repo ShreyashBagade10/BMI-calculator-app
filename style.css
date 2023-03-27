@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("wall.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+span{
+    color: red;
+}
+.wrapper{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    background: linear-gradient(135deg,#2b33a1,hsl(305, 83%, 53%) );
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+}
+
+input{
+    background: white;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(240, 7, 170);
+    background: black;
+    display: block;
+    margin-left: 40%;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.heading{
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #222120;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-top: 6%;
+}
+
+p{
+    font-size: 30px;
+}
+
